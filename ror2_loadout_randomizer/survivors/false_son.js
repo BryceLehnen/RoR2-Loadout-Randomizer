@@ -8,7 +8,7 @@ export const false_son = {
             type: "Passive",
             choices: [
                 {
-                    name: "Lunar Temapering",
+                    name: "Lunar Tampering",
                     icon: "Lunar_Tampering.webp"
                 }
             ]

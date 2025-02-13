@@ -84,7 +84,7 @@ let artifact_list = {
         },
         {
             name: "Artifact of Rebirth",
-            icon: "Artifact_of_Rebirth.webp",
+            icon: "Artifact_of_Rebirth.png",
             desc: "Descend to Petrichor V with gifts from a previous life."
         }
     ]
