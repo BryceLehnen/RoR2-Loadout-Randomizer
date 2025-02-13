@@ -1,0 +1,26 @@
+{
+    "Survivors": [
+        {
+            "Name": "Acrid",
+            "Image": "./graphics/survivors/acrid/Acrid.webp",
+            "Link": "https://riskofrain2.fandom.com/wiki/Acrid",
+            "Skills": [
+                {
+                    "Type": "Passive",
+                    "List": [
+                        {
+                            "Name": "Poison",
+                            "Desc": "Poisonous attacks apply a powerful damage-over-time.",
+                            "Image": "./graphics/survivors/acrid/passive/Poison.webp"
+                        },
+                        {
+                            "Name": "Blight",
+                            "Desc": "Attacks that apply Poison apply stacking Blight instead, dealing 60% damage per second.",
+                            "Image": "./graphics/survivors/acrid/passive/Blight.webp"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
