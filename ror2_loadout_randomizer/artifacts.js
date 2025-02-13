@@ -81,6 +81,11 @@ let artifact_list = {
             name: "Artifact of Soul",
             icon: "Artifact_of_Soul.webp",
             desc: "Wisps emerge from defeated monsters."
+        },
+        {
+            name: "Artifact of Rebirth",
+            icon: "Artifact_of_Rebirth.webp",
+            desc: "Descend to Petrichor V with gifts from a previous life."
         }
     ]
 
