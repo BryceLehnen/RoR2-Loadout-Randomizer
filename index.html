@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Browser info, tab setup -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="A Risk of Rain 2 Loadout Randomizer. Randomly selects your survivor, skills, and artifacts.">
+    <link rel="icon" href="ror2_loadout_randomizer/images/favicon.ico">
+    <title>RoR2 Loadout Randomizer</title>
+
+    <!-- Load libraries -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/lib/alea.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+
+    <!-- Analytics -->
+    <!-- Don't worry, this gets blocked with uBlock :) -->
+    <script defer src="https://eu.umami.is/script.js" data-website-id="f28f5747-07e6-45cf-b880-185df1614607"></script>
+
+    <!-- Load stylesheet and modules -->
+    <link rel="stylesheet" href="ror2_loadout_randomizer/main.css">
+    <script type="module" src="ror2_loadout_randomizer/main.js"></script>
+</head>
+
+<body>
+    <div class="centerer">
+        <div class="base-ui">
+            <div class="meta-ui survivor" style="opacity: 0;">
+                <div id="survivor"></div>
+                <div id="skills" class="meta-ui-continue"></div>
+            </div>
+            <div class="meta-ui artifacts" style="opacity: 0;">
+                <div class="text bold inside-meta">
+                    Artifacts
+                </div>
+                <div class="artifact-holder" id="artifacts"></div>
+                <div id="artifact-info"></div>
+            </div>
+
+            <div class="meta-ui misc" style="opacity: 0;">
+                <div class="text side credits inside-meta" style="text-align: center;">
+                    Website by Trixelized. Assets belong to Hopoo Games.
+                </div>
+                <div class="text bold inside-meta">
+                    <button id="reroll-button" class="text button red">Reroll?</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
