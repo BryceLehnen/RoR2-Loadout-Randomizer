@@ -99,11 +99,12 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    padding: 60px 0px;
+    padding: 20px 0px;
+    margin-bottom: 20px;
 }
 
 .doubleslider {
-    width: 85%;
+    width: 80%;
     height: 10px;
     position: relative;
     background-color: white;
