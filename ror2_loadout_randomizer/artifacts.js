@@ -105,14 +105,11 @@ export function randomizeArtifacts(seed, rangeInput) {
     let seeded_rng = new alea(seed);
     let min = Number(rangeInput[0].value);
     let max = Number(rangeInput[1].value);
-    console.log(min + " " + max);
 
     // Randomly select from 2 to 6 artifacts by default
     // If the slider is changed, selects based on that
     // Default is 2-6 artifacts
-    let artifact_num = Number(Math.floor(Math.random() * (max - min)) + min);
-    console.log(artifact_num);
-    artifact_num = 6;
+    let artifact_num = Number(Math.round(Math.random() * (max - min)) + min);
 
     let artifacts_picked = [];
     while (artifacts_picked.length < artifact_num) {
