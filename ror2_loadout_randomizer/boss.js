@@ -16,6 +16,16 @@ let boss_list = {
             name: "Voidling",
             color: "#0e0d3b",
             icon: "Voidling.webp",
+        },
+        {
+            name: "Obliteration",
+            color: "#0091d1",
+            icon: "Obliteration.webp",
+        },
+        {
+            name: "A Moment, Whole",
+            color: "#000435",
+            icon: "A_Moment,_Whole.webp",
         }
     ]
 }
