@@ -99,6 +99,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 20px;
+    padding: 20px 0px;
 }
 
 .doubleslider {
@@ -156,8 +157,8 @@ input {
     transform: translateY(-50%);
 }
 input::-webkit-slider-thumb {
-    height: 25px;
-    width: 25px;
+    height: 20px;
+    width: 20px;
     border-radius: 50%;
     border: 3px solid #cbffa3;
     background-color: #95d564;
