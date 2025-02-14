@@ -70,6 +70,14 @@ function fadeIn() {
 
     // Opacity change 3
     tl.add({
+        targets: ".meta-ui.boss",
+        easing: "easeInOutQuad",
+        opacity: [0, 1],
+        scaleX: [0, 1]
+    });
+
+    // Opacity change 4
+    tl.add({
         targets: ".meta-ui.misc",
         easing: "easeInOutQuad",
         opacity: [0, 1],
