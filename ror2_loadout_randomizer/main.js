@@ -125,7 +125,7 @@ document.getElementById("reroll-button").onclick = function() {
 }
 
 // Slider functionality
-let minRangeValueGap = 0;
+let minRangeValueGap = 1;
 const range = document.getElementById("range-track");
 const minval = document.querySelector(".minvalue");
 const maxval = document.querySelector(".maxvalue");
