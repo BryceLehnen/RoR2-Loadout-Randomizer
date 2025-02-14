@@ -34,7 +34,7 @@ export function randomizeBoss(seed) {
             <img
                 class="square-image big"
                 src="` + boss_list.img_dir + boss.icon + `"
-                alt=` + boss.name + `"
+                alt="` + boss.name + `"
             >
             <div class="text boss side bold">
                     Boss:
