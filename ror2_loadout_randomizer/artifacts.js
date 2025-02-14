@@ -112,6 +112,8 @@ export function randomizeArtifacts(seed, rangeInput) {
     // Default is 2-6 artifacts
     let artifact_num = Math.floor(Math.random() * (max - min)) + min;
     console.log(artifact_num);
+    artifact_num = 6;
+
     let artifacts_picked = [];
     while (artifacts_picked.length < artifact_num) {
         let new_artifact = Math.floor(seeded_rng() * artifact_list.choices.length);
