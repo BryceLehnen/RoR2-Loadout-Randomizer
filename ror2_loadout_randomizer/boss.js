@@ -33,7 +33,7 @@ export function randomizeBoss(seed) {
         <div class="inside-meta">
             <img
                 class="square-image big"
-                src="` + boss.img_dir + boss.portrait + `"
+                src="` + boss.img_dir + boss.icon + `"
                 alt=` + boss.name + `"
             >
             <div class="text boss side bold">
