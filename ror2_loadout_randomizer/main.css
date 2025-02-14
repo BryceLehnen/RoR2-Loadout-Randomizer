@@ -93,15 +93,12 @@ body {
 }
 
 .doubleslidercontainer {
-    border-radius: 3px;
-    border: none;
-    color: white;
+    position: relative;
     background: white;
-    display: inline-block;
-    margin: auto;
-    padding: 15px 32px;
+    display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 20px;
 }
 
 .doubleslider {
