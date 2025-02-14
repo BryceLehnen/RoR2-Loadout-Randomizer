@@ -109,7 +109,7 @@ export function randomizeArtifacts(seed, rangeInput) {
     // Randomly select from 2 to 6 artifacts by default
     // If the slider is changed, selects based on that
     // Default is 2-6 artifacts
-    let artifact_num = Math.floor(Math.random() * max) + min;
+    let artifact_num = Math.floor(Math.random() * (max - min)) + min;
     console.log(artifact_num);
     let artifacts_picked = [];
     while (artifacts_picked.length < artifact_num) {
