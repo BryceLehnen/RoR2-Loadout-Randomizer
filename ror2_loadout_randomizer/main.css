@@ -106,7 +106,7 @@ body {
     width: 85%;
     height: 10px;
     position: relative;
-    background-color: #808080;
+    background-color: white;
     border-radius: 20px;
 }
 
@@ -120,9 +120,9 @@ body {
 .minvalue {
     position: absolute;
     padding: 12px 15px;
-    background: #0e5f59;
+    background: white;
     border-radius: 1rem;
-    color: white;
+    color: black;
     bottom: 0;
     transform: translate(0, -100%);
     left: 0;
@@ -134,9 +134,9 @@ body {
 .maxvalue {
     position: absolute;
     padding: 12px 15px;
-    background: #0e5f59;
+    background: white;
     border-radius: 1rem;
-    color: white;
+    color: black;
     top: 0;
     transform: translate(0, 100%);
     right: 0;
@@ -160,8 +160,7 @@ input::-webkit-slider-thumb {
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    border: 3px solid #cbffa3;
-    background-color: #95d564;
+    background-color: #910330;
     pointer-events: auto;
     -webkit-appearance: none;
     cursor: pointer;
@@ -171,8 +170,7 @@ input::-moz-range-thumb {
     height: 18px;
     width: 18px;
     border-radius: 50%;
-    border: 3px solid #cbffa3;
-    background-color: #95d564;
+    background-color: #910330;
     pointer-events: auto;
     -moz-appearance: none;
     cursor: pointer;
