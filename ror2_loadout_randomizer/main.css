@@ -92,6 +92,61 @@ body {
     display: flex;
 }
 
+.doubleslidercontainer {
+    border-radius: 3px;
+    border: none;
+    color: white;
+    background: white;
+    display: inline-block;
+    margin: auto;
+    padding: 15px 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+.doubleslider {
+    width: 90%;
+    height: 10px;
+    position: relative;
+    background-color: #dddddd;
+    border-radius: 20px;
+}
+
+.range-track {
+    height: 100%;
+    position: absolute;
+    border-radius: 20px;
+    background-color: #910330;
+}
+
+.minvalue {
+    position: absolute;
+    padding: 6px 15px;
+    background: #0e5f59;
+    border-radius: 1rem;
+    color: white;
+    bottom: 0;
+    transform: translate(0, -100%);
+    left: 0;
+    font-size: 1rem;
+    transition: left 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    will-change: left, transform;
+}
+
+.maxvalue {
+    position: absolute;
+    padding: 6px 15px;
+    background: #0e5f59;
+    border-radius: 1rem;
+    color: white;
+    top: 0;
+    transform: translate(0, 100%);
+    right: 0;
+    font-size: 1rem;
+    transition: right 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    will-change: right, transform;
+}
+
 .button {
     border-radius: 3px;
     border: none;
