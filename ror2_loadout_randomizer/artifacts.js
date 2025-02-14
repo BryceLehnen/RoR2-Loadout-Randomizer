@@ -93,7 +93,7 @@ let artifact_list = {
 }
 
 
-export function randomizeArtifacts(seed) {
+export function randomizeArtifacts(seed, rangeInput) {
 
     // Get and clear the divs
     let artifacts_div = document.getElementById("artifacts");
@@ -103,6 +103,8 @@ export function randomizeArtifacts(seed) {
 
     // Create the random function for the current seed
     let seeded_rng = new alea(seed);
+    console.log(seed)
+    console.log(seeded_rng)
 
     // Randomly select from 2 to 6 artifacts
     let artifact_num = 2 + Math.floor(seeded_rng() * 5);

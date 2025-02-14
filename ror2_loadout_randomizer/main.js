@@ -10,7 +10,16 @@ function randomizeFully() {
 
     let seed = Math.random();
     randomizeSurvivor(seed);
-    randomizeArtifacts(seed);
+    randomizeArtifacts(seed, rangeInput);
+    randomizeBoss(seed);
+
+}
+
+function randomizeSlider() {
+
+    let seed = Math.random();
+    randomizeSurvivor(seed);
+    randomizeArtifacts(seed, rangeInput);
     randomizeBoss(seed);
 
 }
@@ -86,6 +95,7 @@ function fadeIn() {
 
 }
 
+// Randomizes based on the slider
 function fadeOutAndCallback() {
 
     anime({
@@ -95,7 +105,7 @@ function fadeOutAndCallback() {
         scaleX: [1, 0],
         duration: 330,
         complete: function(anim) {
-            randomizeFully();
+            randomizeSlider();
             window.scrollTo(0, 0);
             fadeIn();
         }

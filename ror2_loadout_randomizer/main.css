@@ -100,7 +100,7 @@ body {
     align-items: center;
     border-radius: 20px;
     padding: 20px 0px;
-    margin-top: 15px;
+    margin-top: 12px;
     margin-bottom: 30px;
 }
 
@@ -121,7 +121,7 @@ body {
 
 .minvalue {
     position: absolute;
-    padding: 5px 10px;
+    padding: 3px 14px;
     background: white;
     border-radius: 1rem;
     color: black;
@@ -136,7 +136,7 @@ body {
 
 .maxvalue {
     position: absolute;
-    padding: 5px 10px;
+    padding: 3px 14px;
     background: white;
     border-radius: 1rem;
     color: black;
