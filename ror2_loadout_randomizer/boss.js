@@ -23,10 +23,10 @@ export function randomizeBoss(seed) {
     let seeded_rng = new alea(seed);
 
     // Pick a random boss
-    let random_index = Math.floor(seeded_rng() * boss_list.length);
+    let random_index = Math.floor(seeded_rng() * boss_list.choices.length);
     // Testing for new bosses
     //random_index = 1 // False Son
-    let boss = boss_list[random_index];
+    let boss = boss_list.choices[random_index];
 
     // Add the boss element to the div
     boss_div.innerHTML += `
