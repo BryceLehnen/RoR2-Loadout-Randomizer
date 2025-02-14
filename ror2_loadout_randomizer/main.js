@@ -126,7 +126,7 @@ document.getElementById("reroll-button").onclick = function() {
 
 // Slider functionality
 let minRangeValueGap = 0;
-const range = document.getElementById("range_track");
+const range = document.getElementById("range-track");
 const minval = document.querySelector(".minvalue");
 const maxval = document.querySelector(".maxvalue");
 const rangeInput = document.querySelectorAll("input");
@@ -196,6 +196,7 @@ rangeInput.forEach((input) => {
         } 
     });
 });
+
 // Do it once on load
 randomizeFully();
 fadeIn();
