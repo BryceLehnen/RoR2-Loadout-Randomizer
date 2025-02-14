@@ -11,6 +11,11 @@ let boss_list = {
             name: "False Son",
             color: "#557fcc",
             icon: "False_Son_Boss.webp",
+        },
+        {
+            name: "Voidling",
+            color: "#0e0d3b",
+            icon: "Voidling.webp",
         }
     ]
 }
