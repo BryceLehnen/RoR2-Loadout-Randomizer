@@ -1,5 +1,6 @@
 import { randomizeSurvivor } from './survivors.js';
 import { randomizeArtifacts } from './artifacts.js';
+import { randomizeBoss } from './boss.js';
 
 console.log("Here be dragons ...!");
 
@@ -10,6 +11,7 @@ function randomizeFully() {
     let seed = Math.random();
     randomizeSurvivor(seed);
     randomizeArtifacts(seed);
+    randomizeBoss(seed);
 
 }
 
