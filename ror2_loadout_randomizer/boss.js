@@ -14,7 +14,7 @@ let boss_list = {
         },
         {
             name: "Voidling",
-            color: "#0e0d3b",
+            color: "#c01ca8",
             icon: "Voidling.webp",
         },
         {
@@ -24,7 +24,7 @@ let boss_list = {
         },
         {
             name: "A Moment, Whole",
-            color: "#000435",
+            color: "#1c1a85",
             icon: "A_Moment,_Whole.webp",
         }
     ]

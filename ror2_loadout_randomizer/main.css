@@ -100,18 +100,20 @@ body {
     align-items: center;
     border-radius: 20px;
     padding: 20px 0px;
-    margin-bottom: 20px;
+    margin-top: 18px;
+    margin-bottom: 18px;
 }
 
 .doubleslider {
-    width: 80%;
-    height: 10px;
+    width: 85%;
+    height: 8px;
     position: relative;
     background-color: white;
     border-radius: 20px;
 }
 
 .range-track {
+    width: 95%;
     height: 100%;
     position: absolute;
     border-radius: 20px;
