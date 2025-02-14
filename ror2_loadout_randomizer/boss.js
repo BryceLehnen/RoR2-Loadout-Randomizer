@@ -4,10 +4,12 @@ let boss_list = {
     choices: [
         {
             name: "Mithrix",
+            color: "#6e86a7",
             icon: "Mithrix.webp",
         },
         {
             name: "False Son",
+            color: "#557fcc",
             icon: "False_Son_Boss.webp",
         }
     ]
@@ -39,7 +41,7 @@ export function randomizeBoss(seed) {
             <div class="text boss side bold">
                     Boss:
                 </div>
-                <div class="text boss side bold" style="color: ` + survivor.color + `">
+                <div class="text boss side bold" style="color: ` + boss.color + `">
                     ` + boss.name + `
                 </div>
         </div>`;
