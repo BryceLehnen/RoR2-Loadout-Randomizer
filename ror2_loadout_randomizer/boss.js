@@ -39,7 +39,7 @@ export function randomizeBoss(seed) {
                 alt="` + boss.name + `"
             >
             <div class="text survivor side bold">
-                    Boss:
+                    Boss: \n
                 </div>
                 <div class="text survivor side bold" style="color: ` + boss.color + `">
                     ` + boss.name + `
