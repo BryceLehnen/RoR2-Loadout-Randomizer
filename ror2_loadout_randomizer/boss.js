@@ -38,10 +38,10 @@ export function randomizeBoss(seed) {
                 src="` + boss_list.img_dir + boss.icon + `"
                 alt="` + boss.name + `"
             >
-            <div class="text boss side bold">
+            <div class="text survivor side bold">
                     Boss:
                 </div>
-                <div class="text boss side bold" style="color: ` + boss.color + `">
+                <div class="text survivor side bold" style="color: ` + boss.color + `">
                     ` + boss.name + `
                 </div>
         </div>`;
