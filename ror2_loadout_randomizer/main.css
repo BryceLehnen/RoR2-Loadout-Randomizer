@@ -105,7 +105,7 @@ body {
 }
 
 .doubleslider {
-    width: 85%;
+    width: 90%;
     height: 8px;
     position: relative;
     background-color: white;
@@ -113,7 +113,6 @@ body {
 }
 
 .range-track {
-    width: 95%;
     height: 100%;
     position: absolute;
     border-radius: 20px;
@@ -130,6 +129,7 @@ body {
     transform: translate(0, -100%);
     left: 0;
     font-size: 18px;
+    font-family: "Bombardier";
     transition: left 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
     will-change: left, transform;
 }
@@ -144,6 +144,7 @@ body {
     transform: translate(0, 100%);
     right: 0;
     font-size: 18px;
+    font-family: "Bombardier";
     transition: right 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
     will-change: right, transform;
 }
