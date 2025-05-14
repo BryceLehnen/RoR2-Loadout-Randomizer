@@ -1,5 +1,5 @@
 export const chef = {
-    name: "Chef",
+    name: "CHEF",
     color: "#bd3725",
     img_dir: "ror2_loadout_randomizer/images/survivors/chef/",
     portrait: "Chef.webp",
@@ -28,6 +28,10 @@ export const chef = {
                 {
                     name: "Sear",
                     icon: "Sear.webp"
+                },
+                {
+                    name: "Ice Box",
+                    icon: "Ice_Box.webp"
                 }
             ]
         },
@@ -37,6 +41,10 @@ export const chef = {
                 {
                     name: "Roll",
                     icon: "Roll.webp"
+                },
+                {
+                    name: "Oil Spill",
+                    icon: "Oil_Spill.webp"
                 }
             ]
         },

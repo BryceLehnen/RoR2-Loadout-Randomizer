@@ -37,6 +37,10 @@ export const false_son = {
                 {
                     name: "Lunar Spikes",
                     icon: "Lunar_Spikes.webp"
+                },
+                {
+                    name: "Lunar Stakes",
+                    icon: "Lunar_Stakes.webp"
                 }
             ]
         },
@@ -46,6 +50,10 @@ export const false_son = {
                 {
                     name: "Step of the Brothers",
                     icon: "Step_of_the_Brothers.webp"
+                },
+                {
+                    name: "Meridian's Will",
+                    icon: "Meridian's_Will.webp"
                 }
             ]
         },

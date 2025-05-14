@@ -41,6 +41,10 @@ export const seeker = {
                 {
                     name: "Sojourn",
                     icon: "Sojourn.webp"
+                },
+                {
+                    name: "Reprieve",
+                    icon: "Reprieve.webp"
                 }
             ]
         },
@@ -50,6 +54,10 @@ export const seeker = {
                 {
                     name: "Meditate",
                     icon: "Meditate.webp"
+                },
+                {
+                    name: "Palm Blast",
+                    icon: "Palm_Blast.webp"
                 }
             ]
         }
