@@ -13,6 +13,16 @@ let artifact_list = {
             desc: "Choose your items."
         },
         {
+            name: "Artifact of Delusion",
+            icon: "Artifact_of_Delusion.webp",
+            desc: "Risk your items after completing the teleporter event in a test of memory to gain more items."
+        },
+        {
+            name: "Artifact of Devotion",
+            icon: "Artifact_of_Devotion.webp",
+            desc: "Replace broken drones with Lemurian Eggs. Offer an item to gain followers."
+        },
+        {
             name: "Artifact of Honor",
             icon: "Artifact_of_Honor.webp",
             desc: "Enemies can only spawn as elites."
@@ -48,6 +58,11 @@ let artifact_list = {
             desc: "Players always spawn as a random survivor."
         },
         {
+            name: "Artifact of Rebirth",
+            icon: "Artifact_of_Rebirth.png",
+            desc: "Descend to Petrichor V with gifts from a previous life."
+        },
+        {
             name: "Artifact of Sacrifice",
             icon: "Artifact_of_Sacrifice.webp",
             desc: "Monsters drop items on death, but Chests no longer spawn."
@@ -81,11 +96,6 @@ let artifact_list = {
             name: "Artifact of Soul",
             icon: "Artifact_of_Soul.webp",
             desc: "Wisps emerge from defeated monsters."
-        },
-        {
-            name: "Artifact of Rebirth",
-            icon: "Artifact_of_Rebirth.png",
-            desc: "Descend to Petrichor V with gifts from a previous life."
         }
     ]
 
