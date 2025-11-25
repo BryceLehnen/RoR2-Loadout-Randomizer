@@ -48,7 +48,7 @@ function fadeIn() {
         translateX: [-20, 0],
         opacity: [0, 1],
         delay: anime.stagger(300),
-        duration: 550
+        duration: 300
     });
 
     // Opacity change 2
@@ -65,7 +65,7 @@ function fadeIn() {
         scale: [0, 1],
         opacity: [0, 1],
         delay: anime.stagger(200, {grid: [4, 4], from: "center"}),
-        duration: 550
+        duration: 300
     });
 
     // Artifact items
@@ -74,7 +74,7 @@ function fadeIn() {
         translateX: [-20, 0],
         opacity: [0, 1],
         delay: anime.stagger(300),
-        duration: 550
+        duration: 300
     });
 
     // Opacity change 3
@@ -103,7 +103,7 @@ function fadeOutAndCallback() {
         easing: "easeInOutQuad",
         opacity: [1, 0],
         scaleX: [1, 0],
-        duration: 330,
+        duration: 300,
         complete: function(anim) {
             randomizeSlider();
             window.scrollTo(0, 0);
