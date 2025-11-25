@@ -2,7 +2,7 @@ export const drifter = {
     name: "Drifter",
     color: "#e79236",
     img_dir: "ror2_loadout_randomizer/images/survivors/drifter/",
-    portrait: "Drifter.webp",
+    portrait: "Drifter.png",
     skills: [
         {
             type: "Passive",
