@@ -96,6 +96,11 @@ let artifact_list = {
             name: "Artifact of Soul",
             icon: "Artifact_of_Soul.webp",
             desc: "Wisps emerge from defeated monsters."
+        },
+        {
+            name: "Artifact of Prestige",
+            icon: "Artifact_of_Prestige.webp",
+            desc: "At least one Shrine of the Mountain spawns every stage. Shrine of the Mountain effects are premanent."
         }
     ]
 
