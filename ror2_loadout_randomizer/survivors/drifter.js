@@ -1,4 +1,4 @@
-export const Drifter = {
+export const drifter = {
     name: "Drifter",
     color: "#e79236",
     img_dir: "ror2_loadout_randomizer/images/survivors/drifter/",

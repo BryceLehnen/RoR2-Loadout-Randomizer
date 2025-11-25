@@ -31,7 +31,7 @@ let boss_list = {
             name: "Solus Wing",
             color: "#5ab0b7",
             icon: "Solus_Wing.webp",
-        },
+        }
     ]
 }
 

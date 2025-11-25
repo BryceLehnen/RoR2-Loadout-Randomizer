@@ -1,4 +1,4 @@
-export const Operator = {
+export const operator = {
     name: "Operator",
     color: "#0a7165",
     img_dir: "ror2_loadout_randomizer/images/survivors/operator/",
