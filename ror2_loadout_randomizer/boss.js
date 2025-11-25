@@ -47,7 +47,7 @@ export function randomizeBoss(seed) {
     // Pick a random boss
     let random_index = Math.floor(seeded_rng() * boss_list.choices.length);
     // Testing for new bosses
-    //random_index = 1 // False Son
+    random_index = 5 // Solus wing
     let boss = boss_list.choices[random_index];
 
     // Add the boss element to the div
