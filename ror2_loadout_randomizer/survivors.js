@@ -52,7 +52,7 @@ export function randomizeSurvivor(seed) {
     // Pick a random survivor
     let random_index = Math.floor(seeded_rng() * survivor_list.length);
     // Testing for new survivors
-    random_index = 17 // Drifter
+    //random_index = 17 // Drifter
     let survivor = survivor_list[random_index];
 
     // Add the survivor element to the div
