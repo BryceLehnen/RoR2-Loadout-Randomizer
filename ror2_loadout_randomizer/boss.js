@@ -26,7 +26,12 @@ let boss_list = {
             name: "A Moment, Whole",
             color: "#1c1a85",
             icon: "A_Moment,_Whole.webp",
-        }
+        },
+        {
+            name: "Solus Wing",
+            color: "#5ab0b7",
+            icon: "Solus_Wing.webp",
+        },
     ]
 }
 
